@@ -1,0 +1,57 @@
+*{
+    box-sizing: border-box;
+}
+
+body{
+    font-family: 'Space Sono', monospace;
+    background-color: #001d3e;
+    color: #E8e8e8;
+}
+
+nav.nav-bar{
+    border-bottom: 0.08rem solid #E8e8e8;
+}
+
+h1.brand-heading{
+    text-align: center;
+}
+
+/* Form Section */
+
+form{
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  margin: 8vw; 
+}
+
+input[type="text"]{
+    width:82%;
+    font-size: 1;
+    height: 45px;
+    margin: 0 auto;
+    border-radius: 2%;
+    border: 0px;
+    padding: 0;
+}
+
+button.btn-submit{
+    width: 120px;
+    height: 40px;
+    border-radius: 5%;
+    background-color: rgba(232, 232, 232, 0.893);
+    margin: 20px auto;
+    box-shadow: 3px 1px 1px 3px rgba(232, 232, 232, 0.1);
+    font-size: 20px;
+    font-weight: 500;
+}
+
+.content {
+    min-height: calc(100vh - 80px);
+  }
+
+footer{
+    height: 35px;
+    border: 0.5px solid #E8e8e8;
+    font-size: 32px;
+}
