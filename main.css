@@ -42,6 +42,7 @@ input[type="text"]{
     border-radius: 2%;
     border: 0px;
     padding: 0;
+    padding-left: 3px;
 }
 
 button.btn-submit{
@@ -94,6 +95,8 @@ ul.card-ul li{
 
 span.li-name{
     color: #6278a2;
+    font-weight: 600;
+    font-size: 17px;
 }
 
 
