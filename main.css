@@ -8,6 +8,15 @@ body{
     color: #E8e8e8;
 }
 
+a{
+    text-decoration: none;
+    color: #E8e8e8;
+}
+
+li{
+    list-style: none;
+}
+
 nav.nav-bar{
     border-bottom: 0.08rem solid #E8e8e8;
 }
@@ -16,7 +25,7 @@ h1.brand-heading{
     text-align: center;
 }
 
-/* Form Section */
+/* Form Section OPEN */
 
 form{
   display: flex;
@@ -46,12 +55,60 @@ button.btn-submit{
     font-weight: 500;
 }
 
+/* Form Section CLOSED */
+
+
+/* ------------------------------------------------------- */
+/* Card Section OPEN */
+
+
+
+
+/* Card Sectiion CLOSED */
+
+section#card-ul{
+    display: flex;
+    justify-content: center;
+    
+}
+
+div.card-container{
+    margin: 0 auto;
+    width: 80%;
+    /* border: 1px solid #E8e8e8; */
+    background-color: rgba(37, 73, 113, 0.92);
+    box-shadow: 5px 4px rgba(245, 244, 244, 0.119);
+    border-radius: 1%;
+}
+
+ul.card-ul{
+    padding-left: 15px;
+    padding-top: 5px;
+    padding-bottom: 5px;
+}
+
+ul.card-ul li{
+    letter-spacing: 0.5px;
+    padding: 1.5px 0;
+}
+
+span.li-name{
+    color: #6278a2;
+}
+
+
+/* ------------------------------------------------------- */
+/* Footer Open */
 .content {
-    min-height: calc(100vh - 80px);
+    min-height: calc(100vh - 70px);
   }
 
 footer{
-    height: 35px;
-    border: 0.5px solid #E8e8e8;
+    display: flex;
+    justify-content: center;
+    height: 40px;
+    border-top: 0.5px solid #E8e8e8;
     font-size: 32px;
+    padding-top: 1%;
 }
+/* Footer CLOSED */
