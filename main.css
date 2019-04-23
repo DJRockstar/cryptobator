@@ -73,6 +73,11 @@ section#card-ul{
     
 }
 
+div.name-logo{
+    text-align: center;
+    letter-spacing: 1px;
+}
+
 div.card-container{
     margin: 0 auto;
     width: 80%;
