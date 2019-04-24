@@ -26,6 +26,7 @@ function fetchCoinRank(URLCoinRank){
 
 function displayResultsCRank(responseJson){
     console.log(responseJson);
+    $(".name-logo").empty();
     const coinsObj = responseJson.data.coins[0];
     $("#result-card").append(
         `<div class="name-logo">
@@ -50,11 +51,11 @@ function displayResultsCNator(responseJson){        //Display results for Crypto
     $("#section-table").removeClass("hidden");
     $("#exchange-table").append(
         `<thead>
-        <tr class="row-header">
-            <td class="ex-header">Exchange</td>
-            <td class="price-header">Price</td>
-        </tr>
-    </thead>`
+            <tr class="row-header">
+             <td class="ex-header">Exchange</td>
+             <td class="price-header">Price</td>
+            </tr>
+         </thead>`
     );
     responseJson.ticker.markets.forEach((obj) => {
         console.log(obj.market);        
@@ -66,7 +67,8 @@ function displayResultsCNator(responseJson){        //Display results for Crypto
               </tr>
           </tbody>
         `
-        )
+        );
+        $(".row-body").css("background-color", "rgba(232, 232, 232, 0.22)");
     })
 }
 
