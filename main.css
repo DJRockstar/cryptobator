@@ -103,7 +103,40 @@ span.li-name{
     font-weight: 600;
     font-size: 17px;
 }
+/*                           */
+/* Table */
 
+table{
+    margin: 30px auto;
+    text-align: center;
+    border: 1px solid #E8e8e8;
+    width: 80%;
+}
+
+td{
+    padding: 3.2% 4.2%;
+    font-size: 16px;
+}
+
+
+thead{
+    background-color: rgba(61, 107, 141, 0.269);
+    width: 100%;
+}
+
+td.ex-header, td.price-header{
+    font-weight: 500;
+    font-size: 22px;
+    padding: 5% 5%;
+}
+
+tr.row-body:nth-child(even){
+    background-color: rgba(232, 232, 232, 0.269);
+}
+
+.hidden{
+    display: none;
+}
 
 /* ------------------------------------------------------- */
 /* Footer Open */
@@ -120,3 +153,4 @@ footer{
     padding-top: 1%;
 }
 /* Footer CLOSED */
+
