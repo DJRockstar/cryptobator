@@ -31,7 +31,8 @@ form{
   display: flex;
   flex-direction: column;
   justify-content: center;
-  margin: 8vw; 
+  margin: 8vw;
+  margin-bottom: 2vw; 
 }
 
 input[type="text"]{

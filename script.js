@@ -26,21 +26,17 @@ function fetchCoinRank(URLCoinRank){
 
 function displayResultsCRank(responseJson){
     console.log(responseJson);
-    $(".name-logo").empty();
     const coinsObj = responseJson.data.coins[0];
     $("#result-card").append(
-        `<div class="name-logo">
-            <h3>Coin Symbol: <span>${coinsObj.symbol}</span></h3>
-        </div>
-        <div class="card-container">
+        `<div class="card-container">
             <ul class="card-ul">
               <li><span class="li-name">Coin Name:</span> ${coinsObj.name}</li>
               <li><span class="li-name">Coin Rank:</span> ${coinsObj.rank}</li>
-              <li><span class="li-name">Volume(24h):</span> $${Math.trunc(coinsObj.volume/1000000000)}M </li>
+              <li><span class="li-name">Volume(24h):</span> $${(coinsObj.volume/1000000000).toFixed(2)}M </li> 
               <li><span class="li-name">Coin URL:</span> <a href="${coinsObj.websiteUrl}">${coinsObj.websiteUrl}</a></li>
-              <li><span class="li-name">Circulating Supply:</span> $${coinsObj.circulatingSupply/10000000}M</li>
+              <li><span class="li-name">Circulating Supply:</span> $${(coinsObj.circulatingSupply/1000000).toFixed(2)}M</li>
               <li><span class="li-name">Confirmed Supply:</span> ${coinsObj.confirmedSupply}</li>
-              <li><span class="li-name">Market Cap:</span> $${coinsObj.marketCap/1000000000}M</li>
+              <li><span class="li-name">Market Cap:</span> $${(coinsObj.marketCap/1000000000).toFixed(2)}M</li>
             </ul>
         </div>    
             `)
@@ -63,7 +59,7 @@ function displayResultsCNator(responseJson){        //Display results for Crypto
         ` <tbody>
               <tr class="row-body">
                 <td class="ex-name">${obj.market}</td>
-                <td class="price">${obj.price}</td>
+                <td class="price">${parseInt((obj.price)).toFixed(2)}</td>
               </tr>
           </tbody>
         `
