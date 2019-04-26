@@ -19,7 +19,10 @@ function fetchCryptonator(URLCryptonator){
 function fetchCoinRank(URLCoinRank){
     return fetch(URLCoinRank)
     .then(response => response.json())
-    .then(responseJson => displayResultsCRank(responseJson))
+    .then(responseJson => {
+        displayResultsCRank(responseJson);
+        displayChart(responseJson);
+    })
 }
 
 //RENDER FUNCTIONS
@@ -49,7 +52,7 @@ function displayResultsCNator(responseJson){        //Display results for Crypto
         `<thead>
             <tr class="row-header">
              <td class="ex-header">Exchange</td>
-             <td class="price-header">Price</td>
+             <td class="price-header">Price (USD)</td>
             </tr>
          </thead>`
     );
@@ -76,9 +79,6 @@ function watchForm(){
         getData(coinSymbol);
     })
 }
-
-
-
 
 $(watchForm);
 
