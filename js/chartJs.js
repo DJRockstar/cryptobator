@@ -7,8 +7,8 @@ function displayChart(responseJson){
         datasets: [
             {
               label: "24H Overview",
-              borderColor: "rgb(255, 255, 220)",
-              backgroundColor: "rgba(255,255,220,0.25)",
+              borderColor: "rgb(255,99,132)",
+              backgroundColor: "rgba(255,99,132,0.25)",
               lineTension: 0.2,
               data: responseJson.data.coins[0].history   //Array of Prices coming from cryptoRanking
             }

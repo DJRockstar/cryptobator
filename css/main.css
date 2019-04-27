@@ -71,7 +71,11 @@ button.btn-submit{
 section#card-ul{
     display: flex;
     justify-content: center;
-    
+}
+
+.coin-url:hover{
+    color: rgb(215, 96, 96);
+    font-size: 1.3em;
 }
 
 div.name-logo{
@@ -147,11 +151,75 @@ tr.row-body:nth-child(even){
 
 footer{
     display: flex;
-    justify-content: center;
+    justify-content: space-around;
     height: 40px;
     border-top: 0.5px solid #E8e8e8;
-    font-size: 32px;
     padding-top: 1%;
 }
+
+.footer-span{
+    font-size: 1em;
+}
+.fa-heart{
+    color: red;
+}
+
+.fa-linkedin,.fa-github{
+    font-size: 1.5rem;
+}
+
 /* Footer CLOSED */
 
+
+/* Coin Description Section */
+
+section#coin-desc-id{
+    width: 90%;
+    margin: 0 auto;
+}
+
+
+p.coin-description{
+    line-height: 1.35;
+    letter-spacing: 1.2px;
+}
+
+
+
+/*Desktop  */
+
+@media only screen and (min-width:600px){
+    p.coin-description{
+        width: 60%;
+        margin-left: 5%;
+        line-height: 1.55;
+        letter-spacing: 2px;
+    }
+
+    div.card-container{
+        width: 40%;
+        font-size: 1.2em;
+    }
+
+    td {
+        padding: 1.5% 4.2%;
+    }
+    
+    div#chart-container{
+        width: 60vw;
+    }
+
+    td.ex-header, td.price-header{
+        font-weight: 500;
+        font-size: 22px;
+        padding: 2% 2%;
+    }
+
+    footer{
+        padding: 1%;
+    }
+
+    input[type="text"]{
+        font-size: 22px;
+    }
+}
