@@ -58,9 +58,9 @@ function displayResultsCNator(responseJson){        //Display results for Crypto
              <td class="price-header">Price (USD)</td>
             </tr>
          </thead>`
-    );
+    ); 
     responseJson.ticker.markets.forEach((obj) => {
-        console.log(obj.market);        
+        console.log(obj.market);  
         $("#exchange-table").append(
         ` <tbody>
               <tr class="row-body">
