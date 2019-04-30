@@ -6,9 +6,11 @@
         <meta name="description" content="CryptoCurrency Exchange Rates">
         <meta name="keywords" content="HTML,CSS,XML,JavaScript,CryptoCurrency, Exchange Rates">
         <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.8.1/css/all.css" integrity="sha384-50oBUHEmvpQ+1lW4y57PTFmhCaXp0ML5d60M1M7uH2+nqUivzIebhndOJK28anvf" crossorigin="anonymous">
-        <link rel="stylesheet" href="main.css">
+        <link rel="stylesheet" href="css/chart.css">
+        <link rel="stylesheet" href="css/main.css">
         <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/normalize/8.0.1/normalize.min.css">
         <link href="https://fonts.googleapis.com/css?family=Space+Mono:400,700" rel="stylesheet">
+        <script src="https://cdnjs.cloudflare.com/ajax/libs/Chart.js/2.8.0/Chart.bundle.min.js"></script>
         <script src="https://code.jquery.com/jquery-3.3.1.js" integrity="sha256-2Kok7MbOyxpgUVvAk/HJ2jigOSYS2auK4Pfzbm7uH60=" crossorigin="anonymous"></script>
     </head>
     <body>
@@ -23,19 +25,31 @@
             <section id="result-card">
             </section>
 
+            <div id="chart-container">
+                <canvas id="myChart" width="250px" height="150px"></canvas>
+            </div>
+
             <section id="section-table" class="hidden">
                 <table id="exchange-table" >
                 </table>
             </section>
-
+            <section id="coin-desc-id" class="hidden">
+                <!-- <div class="coin-desc-cointainer">
+                    <p class="coin-description">Ethereum is a public decentralized blockchain that provides peer-to-peer smart contracts, without the interference of third parties. <br> <br> This open source (transparent) platform hosts and distributes decentralized applications, thus connecting peers directly.</p>
+                </div> -->
+            </section> 
         </div> 
 
         <footer class="footer">
             <section class="footer-container">
-                <a href="#"><i class="fab fa-github"></i></a>
-                <a href="#"><i class="fab fa-linkedin"></i></a>
+                <a href="https://github.com/DJRockstar"><i class="fab fa-github"></i></a>
+                <a href="https://www.linkedin.com/in/digvijay-jaiswal/"><i class="fab fa-linkedin"></i></a>
             </section>
+            <span class="footer-span"> Made with <i class="fas fa-heart"> </i>
+                by DJ Jaiswal
+            </span>
         </footer>
-        <script src="script.js"></script>
+        <script src="js/chartJs.js"></script>
+        <script src="js/script.js"></script>
     </body>
 </html>
