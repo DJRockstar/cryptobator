@@ -30,5 +30,5 @@ If you are like me and visited 10 different exchanges just to see the current pr
 
 ## Demo
 
-[Live Demo][https://djrockstar.github.io/CryptoBater/]
+[Live Demo](https://djrockstar.github.io/CryptoBater)
 
