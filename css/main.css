@@ -8,6 +8,10 @@ body{
     color: #E8e8e8;
 }
 
+canvas{
+    background-color: #001d3e;
+}
+
 a{
     text-decoration: none;
     color: #E8e8e8;
@@ -19,6 +23,17 @@ li{
 
 nav.nav-bar{
     border-bottom: 0.08rem solid #E8e8e8;
+}
+
+div.logo-container{
+    display: flex;
+    justify-content: center;
+}
+
+img.logo {
+    width: 50px;
+    height: 60px;
+    padding-right: 10px;
 }
 
 h1.brand-heading{

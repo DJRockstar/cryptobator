@@ -9,7 +9,15 @@ If you are like me and visited 10 different exchanges just to see the current pr
 
 ## ScreenShots
 **Login Screen**
+    Desktop: Landing/Data
 
+    ![Landing](assets/desktopLanding)
+    ![Data](assets/desktopData)
+
+    Mobile: Landing/Data
+    ![Landing](assets/mobileLanding)
+    ![Desktop](assets/mobileData)
+    
 
 **Exchange Screen**
 
@@ -26,7 +34,10 @@ If you are like me and visited 10 different exchanges just to see the current pr
 **API**
 -	CoinRanking
 -	CryptoNator
+-   Postman
 
+**Version Control**
+-   GitHub
 
 ## Demo
 
