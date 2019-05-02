@@ -11,12 +11,12 @@ If you are like me and visited 10 different exchanges just to see the current pr
 **Login Screen**
     Desktop: Landing/Data
 
-    ![Landing](assets/desktopLanding)
-    ![Data](assets/desktopData)
+    ![Landing](screenShots/desktopLanding)
+    ![Data](screenShots/desktopData)
 
     Mobile: Landing/Data
-    ![Landing](assets/mobileLanding)
-    ![Desktop](assets/mobileData)
+    ![Landing](screenShots/mobileLanding)
+    ![Desktop](screenShots/mobileData)
     
 
 **Exchange Screen**
