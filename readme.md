@@ -42,6 +42,8 @@ If you are like me and visited 10 different exchanges just to see the current pr
 
 ![](https://media.giphy.com/media/f4baJBbrASHAAhqTev/giphy.gif)
 
+<p>As shown above, if users want to track the price of a certain crytoCurrency on multiple exchanges, they can enter the crypto ticker symbol (eg: BTC or DASH) and they will be able to see the real time value of the coin on multiple exchanges and a chart depicting 24H overview of the historical prices.</p>
+
 ## Link to the app
 
 [Live Demo](https://djrockstar.github.io/CryptoBater)

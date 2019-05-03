@@ -10,7 +10,7 @@ function getData(coinSymbol){
     fetchCryptonator(URLCryptonator);
 }
 
-function fetchCryptonator(URLCryptonator){
+function fetchCryptonator(URLCryptonator){  //Req Res cycle for Cryptonator API
     return fetch(URLCryptonator)
     .then(response => response.json())
     .then(responseJson => {
@@ -18,7 +18,7 @@ function fetchCryptonator(URLCryptonator){
     })
 }
 
-function fetchCoinRank(URLCoinRank){
+function fetchCoinRank(URLCoinRank){    //Req Res cycle for CoinRanking API
     return fetch(URLCoinRank)
     .then(response => response.json())
     .then(responseJson => {
@@ -30,7 +30,7 @@ function fetchCoinRank(URLCoinRank){
 
 //RENDER FUNCTIONS
 
-function displayResultsCRank(responseJson){
+function displayResultsCRank(responseJson){     //Display results for CoinRanking API
     const coinsObj = responseJson.data.coins[0];
     $("#result-card").append(
         `<div class="card-container">
@@ -72,7 +72,7 @@ function displayResultsCNator(responseJson){        //Display results for Crypto
     })
 }
 
-function displayCoinDescription(responseJson){
+function displayCoinDescription(responseJson){ //Displays descriptoon about the Coin
     $("#coin-desc-id").removeClass("hidden");
     const coinsObj = responseJson.data.coins[0];
     $("#coin-desc-id").append(`
@@ -90,5 +90,5 @@ function watchForm(){
     })
 }
 
-$(watchForm);
+$(watchForm); 
 
