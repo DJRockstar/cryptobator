@@ -8,6 +8,11 @@ body{
     color: #E8e8e8;
 }
 
+.wrong-ticker{
+    text-align: center;
+    font-size: 20px;
+}
+
 canvas{
     background-color: #001d3e;
 }
