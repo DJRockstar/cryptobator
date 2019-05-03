@@ -38,7 +38,11 @@ If you are like me and visited 10 different exchanges just to see the current pr
 **Version Control**
 -   GitHub
 
-## Demo
+## Live Demo
+
+![](https://media.giphy.com/media/f4baJBbrASHAAhqTev/giphy.gif)
+
+## Link to the app
 
 [Live Demo](https://djrockstar.github.io/CryptoBater)
 
