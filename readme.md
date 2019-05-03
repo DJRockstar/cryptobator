@@ -9,16 +9,16 @@ If you are like me and visited 10 different exchanges just to see the current pr
 
 ## ScreenShots
 **Login Screen**
-    ###Desktop: Landing/Data
-
-    ![Landing](/screenShots/desktopLanding.png)
-    ![Data](/screenShots/desktopData.png)
-
-    ![Landing](/screenShots/mobileLanding.png)
-    ![Desktop](/screenShots/mobileData.png)
-    
-
+   <br>
+   <img src="screenShots/desktopLanding.png" width="500px" height="500px">
+   <br>
+   <img src="screenShots/mobileLanding.png" width="260px" height="500px">
+  
 **Exchange Screen**
+   <br>
+   <img src="screenShots/desktopData.png" width="500px" height="500px">
+   <br>
+   <img src="screenShots/mobileData.png" width="260px" height="500px">
 
 ## Built With
 
