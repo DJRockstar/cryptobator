@@ -46,5 +46,5 @@ If you are like me and visited 10 different exchanges just to see the current pr
 
 ## Link to the app
 
-[Live Demo](https://djrockstar.github.io/CryptoBater)
+[Live Demo](https://djrockstar.github.io/cryptobator)
 
